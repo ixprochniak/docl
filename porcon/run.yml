@@ -1,0 +1,20 @@
+services:
+  porcon:
+    build:
+      context: ./docl
+      dockerfile: Docl
+    privileged: true
+    container_name: porcon
+    environment:
+      MYSQL_RANDOM_ROOT_PASSWORD: 'Truth'
+      MYSQL_DATABASE: corch
+      MYSQL_USER: corch
+      MYSQL_PASSWORD: DemocracyTerrible
+    volumes:
+      - ./body:/var/lib/mysql
+    networks:
+      - public
+
+networks:
+  public:
+    external: true

@@ -1,0 +1,30 @@
+FROM php:8.4-fpm-alpine
+
+RUN apk add --no-cache bash
+RUN apk add --no-cache curl
+RUN apk add --no-cache unzip
+
+RUN apk add --no-cache libpng-dev
+RUN apk add --no-cache libjpeg-turbo-dev
+RUN apk add --no-cache freetype-dev
+RUN apk add --no-cache libwebp-dev
+RUN apk add --no-cache libavif-dev
+
+RUN apk add --no-cache libzip-dev
+RUN apk add --no-cache icu-dev
+RUN apk add --no-cache oniguruma-dev
+
+RUN docker-php-ext-configure gd --with-freetype --with-jpeg --with-webp --with-avif
+RUN docker-php-ext-install -j$(nproc) gd
+
+RUN docker-php-ext-install -j$(nproc) mysqli
+RUN docker-php-ext-install -j$(nproc) pdo
+RUN docker-php-ext-install -j$(nproc) pdo_mysql
+RUN docker-php-ext-install -j$(nproc) intl
+RUN docker-php-ext-install -j$(nproc) mbstring
+RUN docker-php-ext-install -j$(nproc) exif
+RUN docker-php-ext-install -j$(nproc) zip
+RUN docker-php-ext-install -j$(nproc) opcache
+RUN docker-php-ext-install -j$(nproc) bcmath
+
+WORKDIR /var/www/body

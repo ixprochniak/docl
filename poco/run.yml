@@ -1,0 +1,14 @@
+services:
+  poco:
+    build:
+      context: ./docl
+      dockerfile: Docl
+    container_name: poco
+    volumes:
+      - ../qoco/body:/var/www/body
+    networks:
+      - public
+
+networks:
+  public:
+    external: true

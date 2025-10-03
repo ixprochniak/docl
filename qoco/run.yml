@@ -1,0 +1,21 @@
+services:
+  qoco:
+    build:
+      context: ./docl
+      dockerfile: Docl
+    container_name: qoco
+    ports:
+      - 80:80
+    volumes:
+      - ./body:/var/www/body
+      - ./joy:/etc/nginx/templates
+    environment:
+      - PROTOCOL=80
+      - DOMAIN=127.0.0.1
+      - POCO=poco
+    networks:
+      - public
+
+networks:
+  public:
+    external: true
