@@ -7,6 +7,7 @@ services:
     container_name: porcon
     environment:
       MYSQL_RANDOM_ROOT_PASSWORD: 'Truth'
+      MYSQL_INITDB_SKIP_TZINFO: 'Truth'
       MYSQL_DATABASE: corch
       MYSQL_USER: corch
       MYSQL_PASSWORD: DemocracyTerrible
