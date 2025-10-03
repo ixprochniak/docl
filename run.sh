@@ -17,4 +17,4 @@ docker compose -f ./porcon/run.yml up -d > porcon.log 2>&1
 echo ">>> Uruchamianie qoco..."
 docker compose -f ./qoco/run.yml up -d > qoco.log 2>&1
 
-echo ">>> Wszystko odpalone 🚀"
+echo ">>> 🚀"
