@@ -8,6 +8,7 @@ services:
       - 80:80
     volumes:
       - ./body:/var/www/body
+      
       - ./joy:/etc/nginx/templates
     environment:
       - PROTOCOL=80
