@@ -1,0 +1,65 @@
+#1 [internal] load local bake definitions
+#1 reading from stdin 565B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Docl
+#2 transferring dockerfile: 63B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/percona/percona-server:8.0
+#3 DONE 1.5s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 2B done
+#4 DONE 0.0s
+
+#5 exporting to image
+#5 exporting layers done
+#5 exporting manifest sha256:6c48170eca9ef1f76bda1bd676cfe67f358ab685c09a0966ed4e04749e427974 done
+#5 exporting config sha256:43afb180c05d3755335b1d19de9123dab4a84094bfef92b3f8ccf180f651908a done
+#5 exporting attestation manifest sha256:0d2e2eb74368a3634acc6fb0ea08e6b4e62c36b8f5eadfede64708817a01029f done
+#5 exporting manifest list sha256:90f72b1482cc5cfe394dac1bc0b6e5df1a52c955f7066048d3ebf1475dfb7bcf done
+#5 naming to docker.io/library/porcon-porcon:latest done
+#5 unpacking to docker.io/library/porcon-porcon:latest
+#5 ...
+
+#6 [1/1] FROM docker.io/percona/percona-server:8.0@sha256:11e5cec030c27c056453cfdbc5545687dfed6ea40f5472db1574c1ed22b8f7bb
+#6 resolve docker.io/percona/percona-server:8.0@sha256:11e5cec030c27c056453cfdbc5545687dfed6ea40f5472db1574c1ed22b8f7bb done
+#6 sha256:438626e738820ef0dce5dd48244956d6c959428ee492d8f677da2ddc113bf96c 3.97kB / 3.97kB 0.2s done
+#6 sha256:73ac460760dbc07b4e932677ed1d86c86c51259cd8ea7c5f1d5b13c9dd3d9d59 37.86MB / 37.86MB 1.0s done
+#6 sha256:70a38b2eeed898e5b90ead5037f39ae43070ed656bffe2df1f7d407e554b265c 3.29kB / 3.29kB 0.5s done
+#6 sha256:da0a1c5cb18e735602f64add010e9c48072f1d459abc94b7bb5a19b56900924e 436B / 436B 0.5s done
+#6 sha256:04f70d40ac07268b71799f47d44a5f6d8a4752214cc7e0474056b731f890f429 5.67MB / 5.67MB 1.7s done
+#6 sha256:e3c7f762f8a55836d7c06690b0dc344d19a81fed291bb455362dad2efa79f43c 76.55MB / 130.95MB 5.3s
+#6 sha256:f788ba664754011d5231051c3a63cb6ceed631a2cdfb3c5192217a9b5633d806 1.37kB / 1.37kB 0.3s done
+#6 sha256:7984e6c0cc17fc7a11c8d8928ba1c98beaf9e1c2141bd218964f6b96264417ee 101.71MB / 187.29MB 4.8s
+#6 sha256:5a2011c97aeb1084b02bd2d8bba6621a531904a50915f215d183ad3635b3659f 1.12kB / 1.12kB 0.5s done
+#6 sha256:e3c7f762f8a55836d7c06690b0dc344d19a81fed291bb455362dad2efa79f43c 84.93MB / 130.95MB 5.7s
+#6 sha256:7984e6c0cc17fc7a11c8d8928ba1c98beaf9e1c2141bd218964f6b96264417ee 111.15MB / 187.29MB 5.3s
+#6 sha256:e3c7f762f8a55836d7c06690b0dc344d19a81fed291bb455362dad2efa79f43c 93.32MB / 130.95MB 6.2s
+#6 sha256:7984e6c0cc17fc7a11c8d8928ba1c98beaf9e1c2141bd218964f6b96264417ee 120.59MB / 187.29MB 5.7s
+#6 sha256:e3c7f762f8a55836d7c06690b0dc344d19a81fed291bb455362dad2efa79f43c 101.71MB / 130.95MB 6.6s
+#6 sha256:7984e6c0cc17fc7a11c8d8928ba1c98beaf9e1c2141bd218964f6b96264417ee 130.02MB / 187.29MB 6.2s
+#6 sha256:e3c7f762f8a55836d7c06690b0dc344d19a81fed291bb455362dad2efa79f43c 109.05MB / 130.95MB 7.1s
+#6 sha256:7984e6c0cc17fc7a11c8d8928ba1c98beaf9e1c2141bd218964f6b96264417ee 140.51MB / 187.29MB 6.6s
+#6 sha256:e3c7f762f8a55836d7c06690b0dc344d19a81fed291bb455362dad2efa79f43c 116.39MB / 130.95MB 7.5s
+#6 sha256:7984e6c0cc17fc7a11c8d8928ba1c98beaf9e1c2141bd218964f6b96264417ee 149.95MB / 187.29MB 7.1s
+#6 sha256:e3c7f762f8a55836d7c06690b0dc344d19a81fed291bb455362dad2efa79f43c 125.35MB / 130.95MB 8.0s
+#6 sha256:7984e6c0cc17fc7a11c8d8928ba1c98beaf9e1c2141bd218964f6b96264417ee 159.38MB / 187.29MB 7.5s
+#6 sha256:e3c7f762f8a55836d7c06690b0dc344d19a81fed291bb455362dad2efa79f43c 130.95MB / 130.95MB 8.2s done
+#6 sha256:7984e6c0cc17fc7a11c8d8928ba1c98beaf9e1c2141bd218964f6b96264417ee 170.92MB / 187.29MB 8.1s
+#6 sha256:7984e6c0cc17fc7a11c8d8928ba1c98beaf9e1c2141bd218964f6b96264417ee 185.60MB / 187.29MB 8.6s
+#6 sha256:7984e6c0cc17fc7a11c8d8928ba1c98beaf9e1c2141bd218964f6b96264417ee 187.29MB / 187.29MB 8.6s done
+#6 DONE 9.5s
+
+#5 exporting to image
+#5 unpacking to docker.io/library/porcon-porcon:latest 13.3s done
+#5 DONE 13.4s
+
+#7 resolving provenance for metadata file
+#7 DONE 0.0s
+ porcon-porcon  Built
+ Container porcon  Creating
+ Container porcon  Created
+ Container porcon  Starting
+ Container porcon  Started
