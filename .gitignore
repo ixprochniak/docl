@@ -1,0 +1,9 @@
+poco.log
+porcon.log
+qoco.log
+
+porcon/body/**
+qoco/body/wp-content/languages/**
+qoco/body/wp-content/plugins/**
+
+wp-config.php
