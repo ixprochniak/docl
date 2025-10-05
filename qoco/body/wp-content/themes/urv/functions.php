@@ -56,7 +56,7 @@ add_action( 'wp_enqueue_scripts', function() {
     '{ -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }' .
 
     '.elementor-widget-heading' .
-    "{ font-family: 'Lr'; font-weighy: 390; }" .
+    "{ font-family: 'Lr'; font-weighy: 410; }" .
 
     '.elementor-widget-text-editor,' .
     '.elementor-widget-button' .
